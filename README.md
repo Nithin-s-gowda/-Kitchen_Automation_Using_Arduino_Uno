@@ -1,47 +1,69 @@
-This project presents an Arduino-based kitchen automation system aimed at improving efficiency, convenience, and safety. We are going to automate the following using Arduino Uno board:
+# **Kitchen Automation Using Arduino Uno**  
 
-· Controlling lighting based on intensity of light in the kitchen
+### **Overview**  
+This project presents an **Arduino-based kitchen automation system** aimed at improving **efficiency, convenience, and safety**. The system automates the following tasks using the **Arduino Uno board**:  
 
-· Controlling exhaust fans based on intensity of smoke detected
+✅ **Automatic Lighting** – Controls lights based on kitchen **light intensity**  
+✅ **Exhaust Fan Control** – Activates the fan when **smoke is detected**  
+✅ **Insect Detection** – Triggers a **buzzer** upon detecting **insect movement**  
+✅ **Smart Trash Bin** – Opens automatically when an **object is detected nearby**  
 
-· Triggering the buzzer when insect movement is detected
+The system is powered by an **Arduino Uno** and developed using the **Arduino IDE**. It enhances **energy conservation**, reduces **accidents**, and provides **real-time monitoring**, making the kitchen **safer and smarter**.  
 
-· Smart trash bin opens its flap when an object is detected at a distance
+---
 
-The system is controlled through a software program developed using the Arduino Integrated Development Environment (IDE). Kitchen automation using Arduino enhances energy conservation, reduces accidents, and provides real-time information on cooking processes, contributing to an optimized kitchen experience.
+## **🚀 Features**  
+- **Automatic control** of lights and exhaust fans  
+- **Insect detection system** with a buzzer alert  
+- **Smart trash bin** with auto-opening mechanism  
+- **Energy-efficient and user-friendly**  
 
-Things you will need to get started:
+---
 
-1. 1x Arduino Uno
+## **🔧 Components Required**  
 
-2. 1x White LED bulb
+| Component | Quantity |
+|-----------|----------|
+| **Arduino Uno** | 1 |
+| **White LED bulb** | 1 |
+| **LDR sensor module** | 1 |
+| **Ultrasonic sensor HC-SR04** | 1 |
+| **SG90 Servo motor** | 1 |
+| **DC motor** | 1 |
+| **MQ2 Gas sensor module** | 1 |
+| **5V 1-channel Relay module** | 1 |
+| **9V Battery** | 1 |
+| **Buzzer Module** | 1 |
+| **PIR motion sensor module** | 1 |
+| **Red LED bulb** | 1 |
+| **Male-to-female jumper wires** | - |
+| **Male-to-male jumper wires** | - |
+| **Female-to-female jumper wires** | - |
+| **Breadboard** | 1 |
+| **Exhaust fan** | 1 |
 
-3. 1x LDR sensor module
+---
 
-4. 1x Ultrasonic sensor HC-SR04
+## **📜 Installation & Usage**  
 
-5. 1x SG90 Servo motor
+### **1️⃣ Setup the Hardware**  
+1. Connect the **LDR sensor** to detect light intensity.  
+2. Integrate the **MQ2 Gas sensor** to detect smoke and trigger the exhaust fan.  
+3. Attach the **PIR motion sensor** for insect detection and buzzer activation.  
+4. Use the **Ultrasonic sensor** and **Servo motor** to automate the trash bin flap.  
 
-6. 1x DC motor
+### **2️⃣ Upload the Code**  
+- Install **Arduino IDE**  
+- Connect **Arduino Uno** via USB  
+- Upload the **Arduino Sketch (.ino) file**  
+- Open the **Serial Monitor** to observe real-time data  
 
-7. 1x MQ2 Gas sensor module
+### **3️⃣ Run the System**  
+- Power the **Arduino Uno**  
+- Observe the automation in action 🚀  
 
-8. 1x 5V 1-chanel Relay module
+---
 
-9. 1x 9V Battery
+## **📷 Project Demo**  
+![image](https://github.com/user-attachments/assets/80122e51-b59d-4b0a-877d-13c74103ad8b)
 
-10.1x Buzzer Module
-
-11.1x PIR motion sensor module
-
-12.1x Red LED bulb
-
-13.Male to female jumper wires
-
-14.Male to male jumper wires
-
-15.Female to female jumper wires
-
-16.1x Breadboard
-
-17.Exhaust fan
